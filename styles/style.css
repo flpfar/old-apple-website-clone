@@ -1,0 +1,79 @@
+/* HTML AND BODY */
+
+html {
+  background-color: #eee;
+  padding: 15px 0;
+  font-size: 62.5%; /* Only for convenient using of rem similar to px (1.6rem = 16px) */
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+body {
+  max-width: 1028px;
+  margin: 0 auto;
+  border: 2px solid gray;
+}
+
+/* HEADER SECTION */
+
+header {
+  width: 100%;
+  height: 538px;
+  color: white;
+  background: url("../images/header.jpg") 50% 100% no-repeat;
+  background-size: 140%;
+  overflow: auto; /* Fix for collapsing margins (navbar margin-top) */ 
+}
+
+/* HEADER SECTION - NAVBAR */
+
+nav {
+  width: 96%;
+  height: 36px;
+  margin: 84px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+}
+
+.nav-item {
+  width: 100%;
+  line-height: 36px;
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 2px;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+div.nav-item {
+  background-color: rgb(0, 136, 204);
+}
+
+div.nav-item input {
+  width: 106px;
+  margin: 7px 16px 0;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGc+Cgk8cG9seWdvbiBmaWxsPSIjNjY2IiBwb2ludHM9IjkuMjA3LDYuMTI2IDcuNzkzLDcuNTQxIDExLjc5MywxMS41NDEgMTMuMjA3LDEwLjEyNiIgLz4KCTxwYXRoIGZpbGw9IiM2NjYiIGQ9Ik01LjkxNywyYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsNy44MzMsNS45MTcsNy44MzNTMyw2LjUyNSwzLDQuOTE3UzQuMzA4LDIsNS45MTcsMgoJCSBNNS45MTcsMEMzLjIwMSwwLDEsMi4yMDEsMSw0LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMi4yMDEsOC42MzIsMCw1LjkxNywwTDUuOTE3LDB6IiAvPgo8L2c+Cjwvc3ZnPgo=");
+  background-position: 5px 4px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid #666;
+  padding-left: 20px;
+}
+
+/* MAIN SECTION */
+
+main {
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: yellow;
+}
