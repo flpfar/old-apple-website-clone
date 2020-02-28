@@ -145,6 +145,8 @@ div.nav-item input {
 
 @media (max-width: 652px) {
   nav {
+    position: fixed;
+    top: 0;
     width: 100%;
     margin-top: 0;
     justify-content: space-between;
