@@ -1,3 +1,21 @@
+/* Fonts imports */
+
+@font-face {
+  font-family: "Noto Sans Semi Condensed Light";
+  src: url("../fonts/NotoSans-SemiCondensedLight.ttf");
+}
+
+
+@font-face {
+  font-family: "Noto Sans Semi Condensed Thin";
+  src: url("../fonts/NotoSans-SemiCondensedThin.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans Light";
+  src: url("../fonts/NotoSans-Light.ttf");
+}
+
 /* HTML AND BODY */
 
 html {
@@ -15,10 +33,54 @@ body {
 
 header {
   width: 100%;
+  min-width: 300px;
   height: 538px;
-  color: white;
   background: url("../images/header.jpg") bottom no-repeat;
-  overflow: auto; /* Fix for collapsing margins (navbar margin-top) */ 
+  overflow: auto; /* Fix for collapsing margins (navbar margin-top) */
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 {
+  margin-bottom: 2rem;
+  font-family: "Noto Sans Semi Condensed Thin";
+  font-size: 6.5rem;
+  font-weight: lighter;
+}
+
+header h2 {
+  margin-bottom: 3.8rem;
+  font-family: "Noto Sans Semi Condensed Light";
+  font-size: 3.2rem;
+  font-weight: normal;
+  line-height: 4rem;
+}
+
+header p {
+  font-family: "Noto Sans Light";
+  font-size: 2.3rem;
+}
+
+@media (max-width: 886px){
+  header h2 br {
+    display: none;
+  }
+}
+
+@media (max-width: 652px){
+  header h1 {
+    font-size: 4.3rem;
+  }
+  header h2 {
+    font-size: 2.2rem;
+  }
+  header p {
+    font-size: 1.6rem;
+  }
 }
 
 /* HEADER SECTION - NAVBAR */
@@ -26,7 +88,7 @@ header {
 nav {
   width: 96%;
   height: 36px;
-  margin: 84px auto;
+  margin: 84px auto 42px;
   display: flex;
   justify-content: space-between;
   background-color: blueviolet;
