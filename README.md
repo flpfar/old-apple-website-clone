@@ -1,7 +1,7 @@
 
 # Clone - Old Version of the Apple Website
 
-> This is the clone of an old version of apple.com for learning CSS backgrounds and gradients.
+> This is the clone of an old version of the apple.com website, created to practice CSS backgrounds and gradients.
 
 ![screenshot](images/screenshot.png)
 
@@ -13,7 +13,7 @@
 - Fonts imports inside CSS
 - Icons from awesomefonts.com
 - Floating elements changing with media queries
-- Works with different sizes of screens
+- Support different screen sizes
 
 ## Built With
 
@@ -24,7 +24,7 @@
 
 [Live Demo Link](https://old-apple-website.netlify.com/)
 
-## Author 👤
+## 👤 Author 
 
 - Github: [@flpfar](https://github.com/flpfar)
 - Twitter: [@flpfar](https://twitter.com/flpfar)
@@ -39,6 +39,3 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-=======
-# old-apple-website-clone
-
