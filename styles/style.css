@@ -125,6 +125,10 @@ nav {
   margin-top: -2px;
 }
 
+.nav-item:nth-last-child(2) {
+  display: none;
+}
+
 div.nav-item {
   border-right: none;
 }
@@ -160,19 +164,32 @@ div.nav-item input {
 
   .nav-item:first-child {
     display: block;
-    width: 34%;
+    width: 47%;
     text-align: left;
   }
 
   .nav-item:nth-child(2) {
     display: block;
     margin-top: 0;
-    width: 33%;
+    width: 6%;
+    z-index: 1;
   }
 
   .nav-item:last-child {
     display: block;
-    width: 34%;
+    width: 47%;
+    text-align: right;
+  }
+}
+
+@media (max-width: 340px) {
+  .nav-item:last-child {
+    display: none;
+  }
+
+  .nav-item:nth-last-child(2) {
+    display: block;
+    width: 47%;
     text-align: right;
   }
 }
