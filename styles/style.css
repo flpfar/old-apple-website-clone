@@ -2,15 +2,13 @@
 
 html {
   background-color: #eee;
-  padding: 15px 0;
   font-size: 62.5%; /* Only for convenient using of rem similar to px (1.6rem = 16px) */
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 body {
-  max-width: 1028px;
+  max-width: 1440px;
   margin: 0 auto;
-  border: 2px solid gray;
 }
 
 /* HEADER SECTION */
@@ -19,8 +17,7 @@ header {
   width: 100%;
   height: 538px;
   color: white;
-  background: url("../images/header.jpg") 50% 100% no-repeat;
-  background-size: 140%;
+  background: url("../images/header.jpg") bottom no-repeat;
   overflow: auto; /* Fix for collapsing margins (navbar margin-top) */ 
 }
 
