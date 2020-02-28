@@ -47,21 +47,21 @@ header a {
 
 header h1 {
   margin-bottom: 2rem;
-  font-family: "Noto Sans Semi Condensed Thin";
+  font-family: "Noto Sans Semi Condensed Thin", sans-serif;
   font-size: 6.5rem;
   font-weight: lighter;
 }
 
 header h2 {
   margin-bottom: 3.8rem;
-  font-family: "Noto Sans Semi Condensed Light";
+  font-family: "Noto Sans Semi Condensed Light", sans-serif;
   font-size: 3.2rem;
   font-weight: normal;
   line-height: 4rem;
 }
 
 header p {
-  font-family: "Noto Sans Light";
+  font-family: "Noto Sans Light", sans-serif;
   font-size: 2.3rem;
 }
 
